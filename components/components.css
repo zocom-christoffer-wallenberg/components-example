@@ -21,7 +21,6 @@ article {
     font-weight: 700;
     font-size: 34px;
     line-height: 41px;
-    color: #ffffff;
 }
 
 .card-text {
@@ -30,7 +29,6 @@ article {
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
-    color: #ffffff;
 }
 
 .link-heading {
@@ -60,9 +58,25 @@ article {
 
 /** Components **/
 .card {
-
+    max-width: 18.75rem;
+    color: #ffffff;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-big {
+    max-width: 30.25rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
 
+.card-big figure {
+    width: 100%;
+    margin: 0;
+}
+
+.card-big figure img {
+    width: 100%;
 }

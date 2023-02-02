@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #222222;
+}
+
+.header {
+    min-height: 37.5rem;
+    background-color: #3DE07E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .navigation {
+    align-self: flex-start;
+    margin: 2rem;
+}
+
+.header .title {
+    margin-top: auto;
+}
+
+.header .image {
+    margin-top: auto;
+}
+
+.cards {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+}
